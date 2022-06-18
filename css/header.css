@@ -1,0 +1,105 @@
+header {
+  box-sizing: border-box;
+  border: 10px solid #191919;
+  background-color: #191919;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logotipo{
+  display: flex;
+  font-size: 1.2em;
+}
+
+li.header-list-item {
+  display: flex;
+  padding: 0px 10px;
+}
+
+div.header-content {
+  display: flex;
+  align-items: center;
+}
+
+nav.menu_itens {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+nav.menu_itens ul {
+  display: flex;
+  align-items: center;
+  padding: unset;
+  width: min-content;
+}
+
+nav.menu_itens ul li {
+  display: flex;
+}
+
+div.icons_nav_head {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.icons_nav_head ul {
+  display: flex;
+  padding: unset;
+}
+
+.btn_nav_head a {
+  position: relative;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: ghostwhite;
+  text-align: center;
+  display: flex;
+}
+
+.btn_nav_head {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 70px;
+  background-color: #191919;  
+  border: unset;
+}
+
+
+.btn_nav_head a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: ghostwhite;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.btn_nav_head a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.icons_nav_head .btn_nav_head {
+  padding: initial;
+}
+
+.nav_main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#logo{
+  text-decoration: none;
+  color: ghostwhite;
+}

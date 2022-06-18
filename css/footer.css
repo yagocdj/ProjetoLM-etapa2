@@ -1,0 +1,38 @@
+div.footer_box{
+  display: grid;
+  grid-template-areas: "first"
+                       "second";
+  background-color: #191919;
+}
+
+div.map{
+  display: grid;
+  padding: 1em 1em;
+  height: 224px;
+  width: 30%;
+}
+
+div.location_container {
+  display: grid;
+  justify-content: center;
+  grid-area: first;
+  padding: 0 1em;
+}
+
+div.about_us{
+  display: grid;
+  grid-area: second;
+  padding: 1em 6em;
+}
+
+#location{
+  display: grid;
+  text-align: center;
+  font-size: 1em;
+  padding: 1em 1em;
+}
+
+#quest{
+  display: grid;
+  text-align: center;
+}
