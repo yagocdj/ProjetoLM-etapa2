@@ -1,11 +1,17 @@
-# Tópicos que serão avaliados neste projeto
+# Segunda etapa do projeto de LM
 
-- Estruturação do website utilizando a linguagem de marcação HMTL 5 com tags semânticas.
+A atividade desta semana consiste no desenvolvimento/entrega da última etapa do projeto da disciplina de LM.
 
-- Estilização do website com CSS (em um ou mais arquivos a parte). Use tipografia e fontes, alinhamento de decoração dos textos, imagens de fundo, espaçamentos e margens, links. Maximize a utilização de seletores na estilização com CSS: ID, class, cascata e herança, pseudo-classes e pseudo-elementos. P.S. Não é necessário utilizar todas as possibilidades, mas tire proveito do que o CSS pode lhes oferecer.
+Neste momento, o projeto será avaliado considerando os seguintes tópicos:
 
-- Posicionamento de elementos utilizando conceito de layout em CSS: grid, flexbox, etc.
+1. Uso de, pelo menos, um formulário, com diferentes de tipos de entradas de dados nos formulários (inputs);
+2. Uso de animação ou transição;
+3. Realizar posicionamento de, pelo menos, um elemento HTML (relative, absolute, fixed ou sticky);
+4. Estilização da página usando alguma biblioteca de componentes como o Bootstrap.
 
-- Uso de Design Responsivo, com pelo menos dois modos diferentes de visualização, a depender da  resolução;
+Para entregar o seu projeto, você deverá:
 
-- Uso de, pelo menos, um recurso da Web (vídeo do youtube, formulário, mapa, etc).
+1) Gravar e disponibilizar um vídeo de cerca de 03 (três) minutos de duração exibindo todas as telas;
+2) Fornecer o seu código fonte e informá-lo na entrega do projeto.
+
+Data da entrega: 04/07/2022
