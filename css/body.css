@@ -157,9 +157,16 @@ div.login_itens{
   object-fit: cover;
 }
 
+/* Ajustando os elementos do card da página de compra */
+.buy-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* Ajustando o tamanho da imagem da compra */
 #buy-image {
-  width: 60%;
-  height: 70%;
+  width: 90%;
+  height: 90%;
 }
 
 div.card {
