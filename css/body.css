@@ -1,3 +1,7 @@
+:root {
+  --gray-2: #212529;
+}
+
 h2{
   font-size: 1.5rem;
   margin: unset;
@@ -148,7 +152,12 @@ div.login_itens{
   align-items: center;
 }
 
-#buy-image, .paints {
+.paints {
+  width: 90%;
+  height: 70%;
+}
+
+#buy-image, .paints, .all-images {
   border-radius: 5px;
   width: 90%;
   height: 70%;
@@ -163,11 +172,40 @@ div.login_itens{
   grid-template-columns: 2fr 1fr;
 }
 
+/* Ajustando o layout da página de compra */
+.buy-card-description {
+  display: grid;
+  gap: 1em;
+  grid-template-areas: "description"
+                       "price"
+                       "button";
+}
+
+#buy-text {
+  grid-area: description;
+  align-self: center;
+  text-align: center;
+}
+
+#buy-price {
+  grid-area: price;
+  justify-self: center;
+  align-self: center;
+}
+
+.cool-shadow {
+  box-shadow: 10px 10px 6px rgba(0,0,0,0.2);
+}
+
+.higher-background {
+  background-color: var(--gray-2);
+  border-radius: 5px;
+}
+
 /* Ajustando o tamanho da imagem da compra */
 #buy-image {
   width: 90%;
   height: 90%;
-  box-shadow: 10px 10px 6px rgba(0,0,0,0.2);
 }
 
 div.card {
