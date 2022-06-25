@@ -157,10 +157,8 @@ div.login_itens{
   height: 70%;
 }
 
-#buy-image, .paints, .all-images {
+.all-images {
   border-radius: 5px;
-  width: 90%;
-  height: 70%;
   margin-top: 4%;
   aspect-ratio: 1/1;
   object-fit: cover;
@@ -185,6 +183,7 @@ div.login_itens{
   grid-area: description;
   align-self: center;
   text-align: center;
+  padding: 2em 1em;
 }
 
 #buy-price {
