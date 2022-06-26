@@ -1,5 +1,6 @@
 :root {
   --gray-2: #262626;
+  --fontsize-p: 1.3rem;
 }
 
 h2{
@@ -182,7 +183,8 @@ div.login_itens{
 #buy-text {
   grid-area: description;
   line-height: 1.8em;
-  align-self: end;
+  font-size: var(--fontsize-p);
+  align-self: center;
   text-align: center;
   padding: 1em 1em;
 }
@@ -205,10 +207,22 @@ div.login_itens{
   border-radius: 5px;
 }
 
+/* Ajustando o botão "comprar" */
+#buy-button {
+  position: relative;
+  top: 0.4em;
+  padding: 1em 3em;
+}
+
+#buy-image-container > h3 {
+  position: relative;
+  top: 0.5em;
+}
+
 /* Ajustando o tamanho da imagem da compra */
 #buy-image {
   width: 90%;
-  height: 90%;
+  height: 70%;
   margin-top: unset;
 }
 

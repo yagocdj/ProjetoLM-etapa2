@@ -1,11 +1,15 @@
-div.footer_box{
+:root {
+  --fontsize-p: 1.3rem;
+}
+
+div.footer_box {
   display: grid;
   grid-template-areas: "first"
                        "second";
   background-color: #191919;
 }
 
-div.map{
+div.map {
   display: grid;
   padding: 1em 1em;
   height: 224px;
@@ -19,20 +23,21 @@ div.location_container {
   padding: 0 1em;
 }
 
-div.about_us{
+div.about_us {
   display: grid;
   grid-area: second;
   padding: 1em 6em;
+  font-size: var(--fontsize-p);
 }
 
-#location{
+#location {
   display: grid;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 1em 1em;
 }
 
-#quest{
+#quest {
   display: grid;
   text-align: center;
 }
