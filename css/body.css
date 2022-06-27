@@ -1,3 +1,8 @@
+:root {
+  --gray-2: #262626;
+  --fontsize-p: 1.3rem;
+}
+
 h2{
   font-size: 1.5rem;
   margin: unset;
@@ -149,26 +154,90 @@ div.login_itens{
 }
 
 .paints {
-  border-radius: 5px 5px 0px;
   width: 90%;
-  height: 70%;
+  height: 90%;
+}
+
+/* Propriedades para todas as imagens utilizadas */
+.all-images {
+  border-radius: 5px;
   margin-top: 4%;
   aspect-ratio: 1/1;
   object-fit: cover;
+}
+
+/* Ajustando os elementos do card da página de compra */
+.buy-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* Ajustando o layout da página de compra */
+.buy-card-description {
+  display: grid;
+  gap: 1em;
+  grid-template-areas: "description"
+                       "price";
+}
+
+#buy-text {
+  grid-area: description;
+  line-height: 1.8em;
+  font-size: var(--fontsize-p);
+  align-self: center;
+  text-align: center;
+  padding: 1em 1em;
+}
+
+#buy-price {
+  grid-area: price;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  border-top: 1px solid ghostwhite;
+  padding: 1em 3em;
+}
+
+.cool-shadow {
+  box-shadow: 10px 10px 6px rgba(0,0,0,0.2);
+}
+
+.higher-background {
+  background-color: var(--gray-2);
+  border-radius: 5px;
+}
+
+/* Ajustando o botão "comprar" */
+#buy-button {
+  position: relative;
+  top: 0.4em;
+  padding: 1em 3em;
+}
+
+#buy-image-container > h3 {
+  position: relative;
+  top: 0.5em;
+}
+
+/* Ajustando o tamanho da imagem da compra */
+#buy-image {
+  width: 90%;
+  height: 70%;
+  margin-top: unset;
 }
 
 div.card {
   display: grid;
   box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  background-color: #262626;
+  background-color: var(--gray-2);
   border-radius: 10px !important;
 }
 
 div.card button {
   display: grid;
   border: unset;
-  background-color: #262626;
+  background-color: var(--gray-2);
 }
 
 div.card button:hover {
@@ -178,7 +247,7 @@ div.card button:hover {
 div.card button a {
   text-decoration: none;
   border: unset;
-  background-color: #262626;
+  background-color: var(--gray-2);
   color: ghostwhite;
 }
 
