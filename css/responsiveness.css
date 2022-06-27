@@ -3,7 +3,8 @@
 @media screen and (max-width: 1060px) {
 
     header {
-      justify-content: center; 
+      justify-content: center;
+      flex-direction: column; 
     }
     
     .header-list-item {
