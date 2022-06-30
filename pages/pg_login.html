@@ -70,14 +70,14 @@
   <!-- Main -->
     
     <main>     
-        <div class="main-card">
+        <div class="main-card" id="account_grid">
           <div id="container_login">
-            <h2>Login</h2>    
-            <div class="form-floating mb-3 w-50">
+            <h2>Acesse sua conta:</h2>    
+            <div class="form-floating mb-3">
                 <input type="email" class="form-control text-dark" id="floatingInput" placeholder="name@example.com">
                 <label class="text-dark" for="floatingInput">Email</label>
             </div>
-            <div class="form-floating w-50 mb-2">
+            <div class="form-floating  mb-2">
                 <input type="password" class="form-control text-dark" id="floatingPassword" placeholder="Password">
                 <label class="text-dark" for="floatingPassword">Password</label>
             </div>
@@ -87,9 +87,14 @@
                 <label class="form-check-label" for="flexSwitchCheckDefault">Lembrar meus dados</label>
               </div>
               <div id="login">
-                <a href="index.html" class="btn background-bounce-right" id="login_btn">Acessar</a>
+                <a href="../index.html" class="btn background-bounce-right" id="login_btn">Login</a>
               </div>           
             </div>
+          </div>
+          <div class="new_account">
+            <h2 id="new_account_head">Não possui uma conta?</h2>
+            <img class="icon_new_account" src='../imgs/Icon_account.svg'>
+            <a href = "pg_new_account.html" class="btn background-bounce-right" id="new_account_btn"> Crie uma agora</a>
           </div>
         </div>
     </main>

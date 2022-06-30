@@ -21,6 +21,16 @@ div.main-card {
   height: 50%;
 }
 
+#container_login{
+  box-sizing: content-box;
+}
+
+#account_grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 1% 2%;
+}
+
 div.main-card-header {
   display: grid;
   justify-self: left;
@@ -79,14 +89,14 @@ div.main-card-header button.btn_card_head{
   transform: scaleX(1);
 }
 
-#login{
+#login, #new_account_btn{
   margin-left: 18%;
 }
 
-#login_btn{
+#login_btn, #new_account_btn{
   padding: 0.7em 1.3em;
   cursor: pointer;
-  background: linear-gradient(90deg, #03B5BD 0%, #00d4d9 100%);
+  background: linear-gradient(90deg, #0776bb 0%, #002277 100%);
   text-decoration: none;
   font-weight:bold;
   font-size:1.1em; 
@@ -96,7 +106,7 @@ div.main-card-header button.btn_card_head{
   transition:0.3s; 
 }
 
-#login_btn:hover {
+#login_btn:hover, #new_account_btn:hover {
   transition:0.3s;
 }
 
@@ -139,7 +149,7 @@ transition-timing-function: ease-out;
 }
 .background-bounce-right:hover, .background-bounce-right:focus, .background-bounce-right:active {
 
-color:#00d4d9;
+color:#002277;
 }
 .background-bounce-right:hover:before, .background-bounce-right:focus:before, .background-bounce-right:active:before {
 -webkit-transform: scaleX(1);
@@ -151,6 +161,24 @@ transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 div.login_itens{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+div.new_account{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img.icon_new_account{
+  width: 10em;
+  margin-left: 10em;
+}
+
+#new_account_head{
+  display: flex;
+  margin-left: 3em;
+  margin-bottom: unset;
 }
 
 .paints {
