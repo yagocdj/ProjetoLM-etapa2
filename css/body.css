@@ -219,8 +219,7 @@ img.icon_new_account{
 
 #buy-price {
   grid-area: price;
-  justify-self: center;
-  align-self: center;
+  place-self: center center;
   text-align: center;
   border-top: 1px solid ghostwhite;
   padding: 1em 3em;
@@ -243,8 +242,7 @@ img.icon_new_account{
 }
 
 #buy-image-container > h3 {
-  position: relative;
-  top: 0.5em;
+  margin-top: 0.9em;
 }
 
 /* Ajustando o tamanho da imagem da compra */
