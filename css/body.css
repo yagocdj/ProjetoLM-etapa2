@@ -93,7 +93,7 @@ div.main-card-header button.btn_card_head{
   margin-left: 18%;
 }
 
-#login_btn, #new_account_btn{
+#login_btn, #new_account_btn, #create_btn{
   padding: 0.7em 1.3em;
   cursor: pointer;
   background: linear-gradient(90deg, #0776bb 0%, #002277 100%);
@@ -106,7 +106,7 @@ div.main-card-header button.btn_card_head{
   transition:0.3s; 
 }
 
-#login_btn:hover, #new_account_btn:hover {
+#login_btn:hover, #new_account_btn:hover, #create_btn {
   transition:0.3s;
 }
 
@@ -115,7 +115,7 @@ display: inline-block;
 vertical-align: middle;
 -webkit-transform: translateZ(0);
 transform: translateZ(0);
-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+box-shadow: 0 0 1px #ffc222;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 -moz-osx-font-smoothing: grayscale;
