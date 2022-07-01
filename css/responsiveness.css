@@ -72,6 +72,25 @@
     div.container_content_cards {  
       grid-gap: 1.5em;
     }
+
+    .buy-card {
+      grid-template-columns: 1fr;
+      grid-template-areas: "paint-image"
+                           "paint-description";
+    }
+
+    .buy-image-container {
+      grid-area: paint-image;
+    }
+
+    #buy-image {
+      width: 100%;
+    }
+
+    .buy-card-description {
+      grid-area: paint-description;
+      gap: 0;
+    }
 }
 
 /* media query (screen and max-width: 768px) footer */
