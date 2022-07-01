@@ -79,8 +79,9 @@
                            "paint-description";
     }
 
-    .buy-image-container {
+    #buy-image-container {
       grid-area: paint-image;
+      height: 40em;
     }
 
     #buy-image {
