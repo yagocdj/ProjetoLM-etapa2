@@ -84,6 +84,10 @@
       height: 50em;
     }
 
+    #buy-image-container > h3, p {
+      text-align: center;
+    }
+
     #buy-image {
       width: 100%;
     }
@@ -91,6 +95,10 @@
     .buy-card-description {
       grid-area: paint-description;
       gap: 0;
+    }
+
+    .buy-card-description {
+      gap: 0.5em;
     }
 }
 
@@ -104,7 +112,7 @@
     }
 }
 
-/* media query (screen and min-width: 2100px */
+/* media query (screen and min-width: 2100px) main */
 
 @media screen and (min-width: 2430px) {
 
