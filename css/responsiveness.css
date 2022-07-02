@@ -103,3 +103,18 @@
                              "second";
     }
 }
+
+/* media query (screen and min-width: 2100px */
+
+@media screen and (min-width: 2430px) {
+
+    #buy-price {
+      align-self: start;
+    }
+
+    #buy-image {
+      width: 62em;
+      height: 47em;
+      object-fit: fill;
+    }
+}

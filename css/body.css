@@ -1,4 +1,6 @@
 :root {
+  --text-color: ghostwhite;
+  --gray-1: #191919;
   --gray-2: #262626;
   --fontsize-p: 1.3rem;
 }
@@ -15,7 +17,7 @@ h2{
 div.main-card {
   display: grid;
   padding: 2% 2%;
-  background-color: #191919;
+  background-color: var(--gray-1);
   border-radius: 5px;
   margin: 3% 15%;
   height: 50%;
@@ -53,7 +55,7 @@ div.main-card-header button.btn_card_head{
   position: relative;
   font-size: 1.8rem;
   text-decoration: none;
-  color: ghostwhite;
+  color: var(--text-color);
   text-align: center;
   display: grid;
 }
@@ -63,7 +65,7 @@ div.main-card-header button.btn_card_head{
   text-align: center;
   justify-content: center;
   padding: 0px 70px;
-  background-color: #191919;  
+  background-color: var(--gray-1);
   border: unset;
 }
 
@@ -75,7 +77,7 @@ div.main-card-header button.btn_card_head{
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: ghostwhite;
+  background-color: var(--text-color);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -100,7 +102,7 @@ div.main-card-header button.btn_card_head{
   text-decoration: none;
   font-weight:bold;
   font-size:1.1em; 
-  color: #fff;
+  color: var(--text-color);
   border-radius:50px;
   overflow:hidden; 
   transition:0.3s; 
@@ -201,12 +203,12 @@ img.icon_new_account{
 }
 
 /* Ajustando o layout da página de compra */
+
 .buy-card-description {
   display: grid;
-  gap: 1em;
   grid-template-areas: "description"
                        "price";
-}
+} 
 
 #buy-text {
   grid-area: description;
@@ -221,7 +223,7 @@ img.icon_new_account{
   grid-area: price;
   place-self: center center;
   text-align: center;
-  border-top: 1px solid ghostwhite;
+  border-top: 1px solid var(--text-color);
   padding: 1em 3em;
 }
 
@@ -274,7 +276,7 @@ div.card button a {
   text-decoration: none;
   border: unset;
   background-color: var(--gray-2);
-  color: ghostwhite;
+  color: var(--text-color);
 }
 
 div.card_description {
