@@ -4,15 +4,15 @@
 
   header {
     justify-content: center;
-    flex-direction: column; 
+    flex-direction: column;
   }
   
   .header-list-item {
-    padding: 0px 6px; 
+    padding: 0px 6px;
   }
   
   .header-content {
-    flex-direction: column; 
+    flex-direction: column;
   }
   
   .menu_itens ul {
@@ -117,7 +117,8 @@ img.icon_new_account{
 
   #buy-image-container {
     grid-area: paint-image;
-    height: 50em;
+    height: 100vh;
+    object-fit: cover;
   }
 
   #buy-image-container > h3, p {
