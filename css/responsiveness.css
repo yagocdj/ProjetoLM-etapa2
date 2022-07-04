@@ -2,127 +2,163 @@
 
 @media screen and (max-width: 1060px) {
 
-    header {
-      justify-content: center;
-      flex-direction: column; 
-    }
-    
-    .header-list-item {
-      padding: 0px 6px; 
-    }
-    
-    .header-content {
-      flex-direction: column; 
-    }
-    
-    .menu_itens ul {
-      flex-direction: column; 
-      align-items: flex-start; 
-    }
-    
-    .btn_nav_head a {
-      padding: 4px 0; 
-      font-size: 1.4rem; 
-    }
-    
-    .btn_nav_head {      
-      padding: 0px 20px; 
-    }
+  header {
+    justify-content: center;
+    flex-direction: column; 
+  }
+  
+  .header-list-item {
+    padding: 0px 6px; 
+  }
+  
+  .header-content {
+    flex-direction: column; 
+  }
+  
+  .menu_itens ul {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+  
+  .btn_nav_head a {
+    padding: 4px 0; 
+    font-size: 1.4rem; 
+  }
+  
+  .btn_nav_head {      
+    padding: 0px 20px; 
+  }
+}
+
+@media screen and (max-width: 1039px) {
+
+div.new_account{
+  margin-top: 5%;
+  grid-area: area2;
+  align-items: center;
+}
+
+img.icon_new_account{
+  margin: unset;
+}
+
+#account_grid{
+  display: grid;
+  padding: 1% 2%;
+  grid-template-columns: 1fr;
+  grid-template-areas: "area1"
+                       "area2";
+}
+
+#container_login{
+  grid-area: area1;
+}
+
+#new_account_head{
+  margin: unset;
+}
+
+#new_account_btn{
+  width: 100%;
+  margin: 0% 0% 2% 0%;
+}
+
 }
 
 /* media query (screen and max-width: 1250px) header */
 
 @media screen and (max-width: 1250px) {
-    
-    div.header-content {
-        flex-direction: column;
-    }
+  
+  div.header-content {
+      flex-direction: column;
+  }
 }
+
 
 /* media query (screen and max-width: 768px) main */
 
 @media screen and (max-width: 768px) {
-          
-    div.main-card {
-        margin: 2% 7%;
-    }
+        
+  div.main-card {
+      margin: 2% 7%;
+  }
 
-    div.container_content_cards {
-       grid-template-areas: "card-1 card-1 card-1"
-                            "card-2 card-2 card-2"
-                            "card-3 card-3 card-3";
-    }
+  div.container_content_cards {
+     grid-template-areas: "card-1 card-1 card-1"
+                          "card-2 card-2 card-2"
+                          "card-3 card-3 card-3";
+  }
 
-    div.card-one {
-        grid-area: card-1;
-    }
+  div.card-one {
+      grid-area: card-1;
+  }
 
-    div.card-two {
-        grid-area: card-2;
-    }
+  div.card-two {
+      grid-area: card-2;
+  }
 
-    div.card-three {
-        grid-area: card-3;
-    }
+  div.card-three {
+      grid-area: card-3;
+  }
 
-    h2 {
-        font-size: 1rem;
-    } 
- 
-    div.container_content_cards {  
-      grid-gap: 1.5em;
-    }
+  h2 {
+      font-size: 1rem;
+  } 
 
-    .buy-card {
-      grid-template-columns: 1fr;
-      grid-template-areas: "paint-image"
-                           "paint-description";
-    }
+  div.container_content_cards {  
+    grid-gap: 1.5em;
+  }
 
-    #buy-image-container {
-      grid-area: paint-image;
-      height: 50em;
-    }
+  .buy-card {
+    grid-template-columns: 1fr;
+    grid-template-areas: "paint-image"
+                         "paint-description";
+  }
 
-    #buy-image-container > h3, p {
-      text-align: center;
-    }
+  #buy-image-container {
+    grid-area: paint-image;
+    height: 50em;
+  }
 
-    #buy-image {
-      width: 100%;
-    }
+  #buy-image-container > h3, p {
+    text-align: center;
+  }
 
-    .buy-card-description {
-      grid-area: paint-description;
-      gap: 0;
-    }
+  #buy-image {
+    width: 100%;
+  }
 
-    .buy-card-description {
-      gap: 0.5em;
-    }
+  .buy-card-description {
+    grid-area: paint-description;
+    gap: 0;
+  }
+
+  .buy-card-description {
+    gap: 0.5em;
+  }
 }
 
 /* media query (screen and max-width: 768px) footer */
 
 @media screen and (max-width: 768px) {
-    
-    div.footer_box {
-        grid-template-areas: "first"
-                             "second";
-    }
+  
+  div.footer_box {
+      grid-template-areas: "first"
+                           "second";
+  }
 }
 
 /* media query (screen and min-width: 2100px) main */
 
 @media screen and (min-width: 2430px) {
 
-    #buy-price {
-      align-self: start;
-    }
+  #buy-price {
+    align-self: start;
+  }
 
-    #buy-image {
-      width: 62em;
-      height: 47em;
-      object-fit: fill;
-    }
+  #buy-image {
+    width: 62em;
+    height: 47em;
+    object-fit: fill;
+  }
 }
