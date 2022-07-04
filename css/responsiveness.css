@@ -1,3 +1,9 @@
+/* Variables */
+
+:root {
+  --font-size-768: 1.1rem;  /* fs for max-width == 768px */
+}
+
 /* media query (screen and max-width: 1060px) header */
 
 @media screen and (max-width: 1060px) {
@@ -30,38 +36,40 @@
   }
 }
 
+/* media query (screen and max-width: 1039px) pg_new_account main */
+
 @media screen and (max-width: 1039px) {
 
-div.new_account{
-  margin-top: 5%;
-  grid-area: area2;
-  align-items: center;
-}
+  div.new_account{
+    margin-top: 5%;
+    grid-area: area2;
+    align-items: center;
+  }
 
-img.icon_new_account{
-  margin: unset;
-}
+  img.icon_new_account{
+    margin: unset;
+  }
 
-#account_grid{
-  display: grid;
-  padding: 1% 2%;
-  grid-template-columns: 1fr;
-  grid-template-areas: "area1"
-                       "area2";
-}
+  #account_grid{
+    display: grid;
+    padding: 1% 2%;
+    grid-template-columns: 1fr;
+    grid-template-areas: "area1"
+                         "area2";
+  }
 
-#container_login{
-  grid-area: area1;
-}
+  #container_login{
+    grid-area: area1;
+  }
 
-#new_account_head{
-  margin: unset;
-}
+  #new_account_head{
+    margin: unset;
+  }
 
-#new_account_btn{
-  width: 100%;
-  margin: 0% 0% 2% 0%;
-}
+  #new_account_btn{
+    width: 100%;
+    margin: 0% 0% 2% 0%;
+  }
 
 }
 
@@ -78,7 +86,7 @@ img.icon_new_account{
 /* media query (screen and max-width: 768px) main */
 
 @media screen and (max-width: 768px) {
-        
+
   div.main-card {
       margin: 2% 7%;
   }
@@ -139,11 +147,13 @@ img.icon_new_account{
   }
 }
 
-/* media query (screen and max-width:  */
-
 /* media query (screen and max-width: 768px) footer */
 
 @media screen and (max-width: 768px) {
+  
+  footer p {
+    font-size: var(--font-size-768);
+  }
   
   div.footer_box {
       grid-template-areas: "first"
