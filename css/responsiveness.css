@@ -147,6 +147,14 @@ img.icon_new_account{
       grid-template-areas: "first"
                            "second";
   }
+
+  .location_container {
+    width: 57vh;
+  }
+
+  div.about_us {
+    padding: 1em 1em;
+  }
 }
 
 /* media query (screen and min-width: 2100px) main */
