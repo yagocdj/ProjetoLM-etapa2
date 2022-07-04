@@ -5,12 +5,12 @@
   --fontsize-p: 1.3rem;
 }
 
-h2 {
+h2{
   font-size: 1.5rem;
   margin: unset;
 }
 
-.container {
+.container{
   display: grid;
 }
 
@@ -23,14 +23,14 @@ div.main-card {
   height: 50%;
 }
 
-#container_login {
+#container_login{
   box-sizing: content-box;
   margin-top: 2%;
 }
 
-#account_grid {
+#account_grid{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2,1fr);
   padding: 1% 2%;
 }
 
@@ -40,7 +40,7 @@ div.main-card-header {
   margin-bottom: 1%;
 }
 
-div.main-card-header h3 {
+div.main-card-header h3{
   text-align: left;
   flex-basis: 100%;
   display: grid;
@@ -48,7 +48,7 @@ div.main-card-header h3 {
   padding: unset;
 }
 
-div.main-card-header button.btn_card_head {
+div.main-card-header button.btn_card_head{
   padding: unset;
 }
 
@@ -92,108 +92,97 @@ div.main-card-header button.btn_card_head {
   transform: scaleX(1);
 }
 
-#login,
-#new_account_btn {
+#login, #new_account_btn{
   margin-left: 18%;
 }
 
-#create_btn {
+#create_btn{
   margin-bottom: 3%;
 }
 
-#login_btn,
-#new_account_btn,
-#create_btn {
+#login_btn, #new_account_btn, #create_btn{
   padding: 0.7em 1.3em;
   cursor: pointer;
   background: linear-gradient(90deg, #0776bb 0%, #002277 100%);
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
+  font-weight:bold;
+  font-size:1.1em; 
   color: var(--text-color);
-  border-radius: 50px;
-  overflow: hidden;
-  transition: 0.3s;
+  border-radius:50px;
+  overflow:hidden; 
+  transition:0.3s; 
 }
 
-#login_btn:hover,
-#new_account_btn:hover,
-#create_btn {
-  transition: 0.3s;
+#login_btn:hover, #new_account_btn:hover, #create_btn {
+  transition:0.3s;
 }
 
 .background-bounce-right {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px #ffc222;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+box-shadow: 0 0 1px #ffc222;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-moz-osx-font-smoothing: grayscale;
+position: relative;
+-webkit-transition-property: color;
+transition-property: color;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
 }
 
 .background-bounce-right:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #4c4c4c;
-  border-radius: 50px;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 0 50%;
-  transform-origin: 0 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #4c4c4c;
+border-radius:50px; 
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transform-origin: 0 50%;
+transform-origin: 0 50%;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.background-bounce-right:hover, .background-bounce-right:focus, .background-bounce-right:active {
+
+color:#002277;
+}
+.background-bounce-right:hover:before, .background-bounce-right:focus:before, .background-bounce-right:active:before {
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-.background-bounce-right:hover,
-.background-bounce-right:focus,
-.background-bounce-right:active {
-
-  color: #002277;
-}
-
-.background-bounce-right:hover:before,
-.background-bounce-right:focus:before,
-.background-bounce-right:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-}
-
-div.login_itens {
+div.login_itens{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-div.new_account {
+div.new_account{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-img.icon_new_account {
+img.icon_new_account{
   width: 10em;
   margin-left: 10em;
 }
 
-#new_account_head {
+#new_account_head{
   display: flex;
   margin-left: 3em;
   margin-bottom: unset;
@@ -223,8 +212,8 @@ img.icon_new_account {
 .buy-card-description {
   display: grid;
   grid-template-areas: "description"
-    "price";
-}
+                       "price";
+} 
 
 #buy-text {
   grid-area: description;
@@ -244,7 +233,7 @@ img.icon_new_account {
 }
 
 .cool-shadow {
-  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 6px rgba(0,0,0,0.2);
 }
 
 .higher-background {
@@ -259,7 +248,7 @@ img.icon_new_account {
   padding: 1em 3em;
 }
 
-#buy-image-container>h3 {
+#buy-image-container > h3 {
   margin-top: 0.9em;
 }
 
@@ -272,10 +261,12 @@ img.icon_new_account {
 
 div.card {
   display: grid;
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   background-color: var(--gray-2);
   border-radius: 10px !important;
+  padding-bottom: 3.8rem;
+  padding-top: 0.8rem;
 }
 
 div.card button {
@@ -284,8 +275,8 @@ div.card button {
   background-color: var(--gray-2);
 }
 
-div.card button:hover {
-  box-shadow: 0 10px 20px 0 rgba(255, 255, 255, 0.2);
+div.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(255,255,255,0.2);
 }
 
 div.card button a {
@@ -301,14 +292,14 @@ div.card_description {
   width: 90%;
   height: 20%;
   font-size: 1em;
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   margin: 0 auto;
 }
 
-div.container_content_cards {
-  display: grid;
+div.container_content_cards { 
+  display: grid; 
   grid-gap: 2%;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); 
   margin-bottom: 10%;
 }
 
